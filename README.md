@@ -2,7 +2,9 @@
 
 ## Example Notebook.
 
-The data in `data` folder is obtained from [here with the download links in the README.](https://github.com/zalandoresearch/fashion-mnist).
+The end goal of the model is to be able to determine wearables based on a greyscale image of 28 x 28.
+
+The data in `data` folder is obtained from [here with the download links in the README](https://github.com/zalandoresearch/fashion-mnist).
 
 The data is then extracted using `gzip` library which is built-in to Python and follows the data byte format as mentioned [in this site](http://yann.lecun.com/exdb/mnist/) for MNIST handwriting.
 
