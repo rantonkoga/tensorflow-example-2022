@@ -18,7 +18,7 @@ tensorboard --logdir output/logs/
 ```
 to see output logs of model performance.
 
-It is not recommended to run both notebooks at the same time if you have a dedicated NVIDIA GPU since there is a chance that you would encounter an error message like this if doing so:
+It is not recommended to run both notebooks at the same time. There is a chance that you would encounter an error message like this (for NVIDIA GPUs) if doing so:
 ```
 Attempting to perform BLAS operation using StreamExecutor without BLAS support
 ```
